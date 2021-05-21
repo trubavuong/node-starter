@@ -16,9 +16,9 @@
     "prepublishOnly": "npm run qc",
     "qc": "npm run lint && npm run test",
     "release": "git push origin && git push origin --tags",
-    "version:major": "npm run qc && changelog -M && git add CHANGELOG.md && git commit --no-verify -m 'chore: update CHANGELOG' && npm version --no-git-tag-version major && git add package.json package-lock.json && git commit --no-verify -m 'chore: update package.json version'",
-    "version:minor": "npm run qc && changelog -m && git add CHANGELOG.md && git commit --no-verify -m 'chore: update CHANGELOG' && npm version --no-git-tag-version minor && git add package.json package-lock.json && git commit --no-verify -m 'chore: update package.json version'",
-    "version:patch": "npm run qc && changelog -p && git add CHANGELOG.md && git commit --no-verify -m 'chore: update CHANGELOG' && npm version --no-git-tag-version patch && git add package.json package-lock.json && git commit --no-verify -m 'chore: update package.json version'"
+    "version:major": "npm run qc && changelog -x release -M && git add CHANGELOG.md && git commit --no-verify -m 'chore: update CHANGELOG' && npm version --no-git-tag-version major && git add package.json package-lock.json && git commit --no-verify -m 'chore: update package.json version'",
+    "version:minor": "npm run qc && changelog -x release -m && git add CHANGELOG.md && git commit --no-verify -m 'chore: update CHANGELOG' && npm version --no-git-tag-version minor && git add package.json package-lock.json && git commit --no-verify -m 'chore: update package.json version'",
+    "version:patch": "npm run qc && changelog -x release -p && git add CHANGELOG.md && git commit --no-verify -m 'chore: update CHANGELOG' && npm version --no-git-tag-version patch && git add package.json package-lock.json && git commit --no-verify -m 'chore: update package.json version'"
   },
   "repository": {
     "type": "git",
