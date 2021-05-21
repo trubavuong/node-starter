@@ -16,9 +16,10 @@ $ git init .
 ### Edit some files
 
 1. Update `package.json`
-2. Update `README.md`
+2. Remove `package-lock.json`
 3. Update `LICENSE`
-4. Clean `CHANGELOG.md`
+4. Update `README.md`
+5. Clean `CHANGELOG.md`
 
 ### Enjoy
 
@@ -58,4 +59,4 @@ $ npm install
 6. Run `npm run release`
 7. Run `npm publish`
 
-Note: git-flow can be used here
+Note: `git-flow` can be used here (step 1, 3-5)
