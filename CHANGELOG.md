@@ -1,3 +1,14 @@
+#### 1.0.1 (2021-05-21)
+
+##### Chores
+
+*  update README ([201a49a6](https://github.com/trubavuong/node-starter/commit/201a49a6675970c09a3a4997cde30cd52e9dd88a))
+*  remove vscode snippet comment ([97cbef0e](https://github.com/trubavuong/node-starter/commit/97cbef0ed881f5be13346985ce1d50b49d1e5d79))
+
+##### Other Changes
+
+*  v1.0.0 ([e1b9722d](https://github.com/trubavuong/node-starter/commit/e1b9722da37d73f2f86ea23587f7fb45660d2287))
+
 ## 1.0.0 (2021-05-21)
 
 ##### Build System / Dependencies
