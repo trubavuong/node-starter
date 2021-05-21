@@ -9,6 +9,7 @@
   "scripts": {
     "lint": "eslint --max-warnings 0 *.js lib/**/*.js __tests__/**/*.js",
     "lint:fix": "eslint --max-warnings 0 --fix *.js lib/**/*.js __tests__/**/*.js",
+    "nvm": "echo \"export NVM_DIR=\"$HOME/.nvm\"\n[ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\"\" > ~/.huskyrc",
     "test": "jest --detectOpenHandles",
     "test:watch": "npm run test -- --watch",
     "test:cover": "npm run test -- --no-cache --coverage",
