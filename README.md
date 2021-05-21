@@ -2,6 +2,16 @@
 
 NodeJS application boilerplate
 
+## Features
+
+- EditorConfig
+- Eslint
+- Prettier
+- Jest
+- Husky
+- Changelog
+- Visual Studio Code
+
 ## Quick start
 
 ### Prepare your app
@@ -9,8 +19,7 @@ NodeJS application boilerplate
 ```
 $ git clone https://github.com/trubavuong/node-starter my-app
 $ cd my-app
-$ rm -rf .git
-$ git init .
+$ rm -rf .git && git init .
 ```
 
 ### Edit some files
@@ -26,16 +35,6 @@ $ git init .
 ```
 $ npm install
 ```
-
-## Features
-
-- EditorConfig
-- Eslint
-- Prettier
-- Jest
-- Husky
-- Changelog
-- Visual Studio Code
 
 ## Popular NPM tasks
 
@@ -57,6 +56,6 @@ $ npm install
 4. Create a git tag version in `master` branch
 5. Delete the release branch
 6. Run `npm run release`
-7. Run `npm publish`
+7. Run `npm publish` (or `npm publish --access public`)
 
 Note: `git-flow` can be used here (step 1, 3-5)
