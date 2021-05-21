@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "NodeJS application boilerplate",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "lint": "eslint --max-warnings 0 *.js lib/**/*.js __tests__/**/*.js",
     "lint:fix": "eslint --max-warnings 0 --fix *.js lib/**/*.js __tests__/**/*.js",
