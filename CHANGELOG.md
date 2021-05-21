@@ -1,3 +1,13 @@
+### 1.1.0 (2021-05-21)
+
+##### Chores
+
+*  update README ([42c528f0](https://github.com/trubavuong/node-starter/commit/42c528f0cfba0039c8434c5925e2a644ea59f74f))
+
+##### New Features
+
+*  exclude release type in CHANGELOG ([2d556a6f](https://github.com/trubavuong/node-starter/commit/2d556a6f3ae49150b8796983973892016e17d26c))
+
 #### 1.0.1 (2021-05-21)
 
 ##### Chores
