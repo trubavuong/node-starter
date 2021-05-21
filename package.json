@@ -9,7 +9,9 @@
     "test": "jest --detectOpenHandles",
     "test:watch": "npm run test -- --watch",
     "test:cover": "npm run test -- --no-cache --coverage",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prepublishOnly": "npm run qc",
+    "qc": "npm run lint && npm run test"
   },
   "repository": {
     "type": "git",
