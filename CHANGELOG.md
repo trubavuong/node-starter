@@ -1,3 +1,14 @@
+### 1.2.0 (2021-05-21)
+
+##### Chores
+
+*  add nvm npm task ([46094f5c](https://github.com/trubavuong/node-starter/commit/46094f5cb5a6b5948eed4fe38ffbdc04ad038fc2))
+*  update README ([210607d0](https://github.com/trubavuong/node-starter/commit/210607d061a8a1626fb3157d4db68ea5a2e711d4))
+
+##### New Features
+
+*  add commit-msg git hook ([5bc26f0a](https://github.com/trubavuong/node-starter/commit/5bc26f0a2aaa749592dc9d1fc6e8e85897bb8e5b))
+
 ### 1.1.0 (2021-05-21)
 
 ##### Chores
