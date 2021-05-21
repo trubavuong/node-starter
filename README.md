@@ -2,6 +2,30 @@
 
 NodeJS application boilerplate
 
+## Quick start
+
+### Prepare your app
+
+```
+$ git clone https://github.com/trubavuong/node-starter my-app
+$ cd my-app
+$ rm -rf .git
+$ git init .
+```
+
+### Edit some files
+
+1. Update `package.json`
+2. Update `README.md`
+3. Update `LICENSE`
+4. Clean `CHANGELOG.md`
+
+### Enjoy
+
+```
+$ npm install
+```
+
 ## Features
 
 - EditorConfig
@@ -27,10 +51,11 @@ NodeJS application boilerplate
 ## Release and publish steps
 
 1. Create and switch to a release branch
-2. Run `version:*` task
-3. Merge the release branch to master and develop branch
-4. Create a git tag
-5. Run `release` task
-6. Run `npm publish`
+2. Run `npm run version:*`
+3. Merge the release branch to `master` and `develop` branch
+4. Create a git tag version in `master` branch
+5. Delete the release branch
+6. Run `npm run release`
+7. Run `npm publish`
 
 Note: git-flow can be used here
